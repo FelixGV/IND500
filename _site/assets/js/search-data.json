@@ -1,0 +1,191 @@
+{"0": {
+    "doc": "1. Applications fiables, extensibles et maintenables",
+    "title": "1. Applications fiables, extensibles et maintenables",
+    "content": "# IND500 ## Bases de données distribuées modernes Automne 2025 --- # Chapitre 1 ## Applications fiables, extensibles et maintenables --- Livre du cours --- --- # Caractéristiques recherchées - Fiabilité - Extensibilité - Maintenabilité --- [Retour au contenu](./) ",
+    "url": "/cours/contenu/semaine1",
+    
+    "relUrl": "/cours/contenu/semaine1"
+  },"1": {
+    "doc": "10. Traitement par lots",
+    "title": "10. Traitement par lots",
+    "content": " ",
+    "url": "/cours/contenu/semaine10",
+    
+    "relUrl": "/cours/contenu/semaine10"
+  },"2": {
+    "doc": "11. Traitement continu",
+    "title": "11. Traitement continu",
+    "content": " ",
+    "url": "/cours/contenu/semaine11",
+    
+    "relUrl": "/cours/contenu/semaine11"
+  },"3": {
+    "doc": "12. Le futur des systèmes de données",
+    "title": "12. Le futur des systèmes de données",
+    "content": " ",
+    "url": "/cours/contenu/semaine12",
+    
+    "relUrl": "/cours/contenu/semaine12"
+  },"4": {
+    "doc": "2. Modèles de données et langages de requètes",
+    "title": "2. Modèles de données et langages de requètes",
+    "content": " ",
+    "url": "/cours/contenu/semaine2",
+    
+    "relUrl": "/cours/contenu/semaine2"
+  },"5": {
+    "doc": "3. Stockage et requète",
+    "title": "3. Stockage et requète",
+    "content": " ",
+    "url": "/cours/contenu/semaine3",
+    
+    "relUrl": "/cours/contenu/semaine3"
+  },"6": {
+    "doc": "4. Encodage et évolution",
+    "title": "4. Encodage et évolution",
+    "content": " ",
+    "url": "/cours/contenu/semaine4",
+    
+    "relUrl": "/cours/contenu/semaine4"
+  },"7": {
+    "doc": "5. Réplication",
+    "title": "5. Réplication",
+    "content": " ",
+    "url": "/cours/contenu/semaine5",
+    
+    "relUrl": "/cours/contenu/semaine5"
+  },"8": {
+    "doc": "6. Partitionnement",
+    "title": "6. Partitionnement",
+    "content": " ",
+    "url": "/cours/contenu/semaine6",
+    
+    "relUrl": "/cours/contenu/semaine6"
+  },"9": {
+    "doc": "7. Transactions",
+    "title": "7. Transactions",
+    "content": " ",
+    "url": "/cours/contenu/semaine7",
+    
+    "relUrl": "/cours/contenu/semaine7"
+  },"10": {
+    "doc": "8. Problèmes de systèmes distribués",
+    "title": "8. Problèmes de systèmes distribués",
+    "content": " ",
+    "url": "/cours/contenu/semaine8",
+    
+    "relUrl": "/cours/contenu/semaine8"
+  },"11": {
+    "doc": "9. Cohérence et consensus",
+    "title": "9. Cohérence et consensus",
+    "content": " ",
+    "url": "/cours/contenu/semaine9",
+    
+    "relUrl": "/cours/contenu/semaine9"
+  },"12": {
+    "doc": "Contribution",
+    "title": "Contribution",
+    "content": "Cette page fournit quelques renseignements pour contribuer au contenu du cours, ou proposer des corrections. ",
+    "url": "/contribution",
+    
+    "relUrl": "/contribution"
+  },"13": {
+    "doc": "Contribution",
+    "title": "Initialisation de l’environnement de travail",
+    "content": "Le contributeur devrait suivre les instructions suivantes la première fois qu’il ou elle désire contribuer au projet: . | Faites une fork du repo sur GitHub: fork. | Clonez le repo et ajouter la fork commune: . GH_USERNAME=&lt;entrez_votre_compte_github&gt; git clone git@github.com:$GH_USERNAME/IND500.git cd IND500 git remote add upstream git@github.com:uquebec-ets/IND500.git git remote -v # Vous devriez voir apparaitre votre fork, ainsi que la fork commune . | Ouvrez le répertoire IND500 dans l’IDE de votre choix (par example VS Code). | Dans GitHub, sur la page de votre fork personnelle, allez dans Settings, Pages puis, dans la section Source, choisissez Deploy from a branch. Ensuite, dans la section Branch, choisissez main, et /docs. Notez que si vous travaillez sur plusieurs branches, vous pouvez en choisir une autre que main, à cette étape. | . ",
+    "url": "/contribution#initialisation-de-lenvironnement-de-travail",
+    
+    "relUrl": "/contribution#initialisation-de-lenvironnement-de-travail"
+  },"14": {
+    "doc": "Contribution",
+    "title": "Effectuer un changement",
+    "content": "Le contributeur devrait suivre les instructions suivantes pour chaque modifications: . | Faites n’importe quelle modification souhaitée dans votre IDE. Consultez la documentation de Just the Docs et de Reveal.js au besoin. | Poussez vos changement à votre propre fork: . git commit -a # Entrez un message de commit pertinent git push origin main # N.B.: Par la suite, si vous désirez écraser vos changements précédents, # plutôt que de créer un commit de plus, vous pouvez à la place faire: git commit -a --amend &amp;&amp; git push -f origin main . | Visionnez les changements sur votre propre fork: . open https://$GH_USERNAME.github.io/IND500/ # N.B.: Le déploiment de vos changements à la page ci-dessus peut prendre # environ 1 minute. Voyez le progrès via: open https://github.com/$GH_USERNAME/IND500/actions . | Recommencez les étapes 1 à 3 jusqu’à temps que vous atteignez le résultat escompté. | Ouvrez une Pull Request de votre fork vers la fork commune. | . ",
+    "url": "/contribution#effectuer-un-changement",
+    
+    "relUrl": "/contribution#effectuer-un-changement"
+  },"15": {
+    "doc": "Cours",
+    "title": "Cours",
+    "content": "Cette section contient de l’information sur les cours théoriques. ",
+    "url": "/cours",
+    
+    "relUrl": "/cours"
+  },"16": {
+    "doc": "Cours",
+    "title": "Session d’automne 2025",
+    "content": "Horaire: Mercredi 8h30 à 12h00 . Local: à confirmer . ",
+    "url": "/cours#session-dautomne-2025",
+    
+    "relUrl": "/cours#session-dautomne-2025"
+  },"17": {
+    "doc": "Travaux pratiques",
+    "title": "Travaux pratiques",
+    "content": "Cette section contient de l’information sur les travaux pratiques. ",
+    "url": "/tp",
+    
+    "relUrl": "/tp"
+  },"18": {
+    "doc": "Travaux pratiques",
+    "title": "Session d’automne 2025",
+    "content": "Horaire: Mercredi 18h00 à 21h00 . Local: aucun (TP donné à distance) . ",
+    "url": "/tp#session-dautomne-2025",
+    
+    "relUrl": "/tp#session-dautomne-2025"
+  },"19": {
+    "doc": "Contenu",
+    "title": "Contenu",
+    "content": "Cette section contient le contenu présenté en classe pour chaque chapitre. ",
+    "url": "/cours/contenu",
+    
+    "relUrl": "/cours/contenu"
+  },"20": {
+    "doc": "Plan de cours",
+    "title": "Plan de cours",
+    "content": "Le cours de bases de données distribuées modernes suit le contenu du livre Designing Data-Intensive Applications de Martin Kleppmann, à environ un chapitre par semaine. ",
+    "url": "/cours/plan_de_cours",
+    
+    "relUrl": "/cours/plan_de_cours"
+  },"21": {
+    "doc": "Plan de cours",
+    "title": "Cours",
+    "content": "| Semaine | Chapitre | Matière | . | 1 | 1 | Intro, table ronde; Applications fiables, extensibles et maintenables | . | 2 | 2 | Modèles de données et langages de requètes | . | 3 | 3 | Stockage et requète | . | 4 | 4 | Encodage et évolution | . | 5 | 5 | Quiz 1; Réplication | . | 6 | 6 | Partitionnement | . | 7 | 7 | Examen intra; Début de Transactions | . | 8 | 7 | Transactions | . | 9 | 8 | Problèmes de systèmes distribués | . | 10 | 9 | Cohérence et consensus | . | 11 | 10 | Quiz 2; Traitement par lots | . | 12 | 11 | Traitement continu | . | 13 | 12 | Le futur des systèmes de données | . | Final |   | Examen final | . ",
+    "url": "/cours/plan_de_cours#cours",
+    
+    "relUrl": "/cours/plan_de_cours#cours"
+  },"22": {
+    "doc": "Plan de cours",
+    "title": "Travaux pratiques",
+    "content": "TP 1 . TODO: Ajouter sommaire du TP 1 . Voir plus de détails sur la page du TP 1. TP 2 . TODO: Ajouter sommaire du TP 2 . Voir plus de détails sur la page du TP 2. TP 3 . TODO: Ajouter sommaire du TP 3 . Voir plus de détails sur la page du TP 3. ",
+    "url": "/cours/plan_de_cours#travaux-pratiques",
+    
+    "relUrl": "/cours/plan_de_cours#travaux-pratiques"
+  },"23": {
+    "doc": "Plan de cours",
+    "title": "Barrème",
+    "content": "| % | Méthode d’évaluation | . | 10% | TP 1 | . | 10% | TP 2 | . | 10% | TP 3 | . | 5% | Quiz 1 | . | 5% | Quiz 2 | . | 25% | Intra | . | 30% | Final | . | 5% | Participation en classe | . ",
+    "url": "/cours/plan_de_cours#barr%C3%A8me",
+    
+    "relUrl": "/cours/plan_de_cours#barrème"
+  },"24": {
+    "doc": "TP 1",
+    "title": "TP 1",
+    "content": " ",
+    "url": "/tp/tp1",
+    
+    "relUrl": "/tp/tp1"
+  },"25": {
+    "doc": "TP 2",
+    "title": "TP 2",
+    "content": " ",
+    "url": "/tp/tp2",
+    
+    "relUrl": "/tp/tp2"
+  },"26": {
+    "doc": "TP 3",
+    "title": "TP 3",
+    "content": " ",
+    "url": "/tp/tp3",
+    
+    "relUrl": "/tp/tp3"
+  }
+}

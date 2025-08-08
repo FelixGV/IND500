@@ -1,0 +1,68 @@
+<!-- Copié de: https://raaaimund.github.io/posts/integrate-reavealjs-in-jekyll-on-github-pages/ -->
+
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+
+        <link rel="stylesheet" href="/assets/reveal.js/dist/reset.css" />
+        <link rel="stylesheet" href="/assets/reveal.js/dist/reveal.css" />
+        <link rel="stylesheet" href="/assets/reveal.js/dist/theme/black.css" />
+        <link rel="stylesheet" href="/assets/reveal.js/plugin/highlight/monokai.css" />
+    </head>
+
+    <body>
+        <!-- Essayé de mettre un bouton pour revenir à la page parente, mais ça ne marche pas bien... -->
+        <!--a href="/cours/contenu" style="color: white; text-decoration: none; padding: 20px; display: inline-block;">X</a-->
+        <div class="reveal">
+            <div class="slides">
+                <section data-markdown="">
+    <textarea data-template="">
+        # IND500
+        ## Bases de données distribuées modernes
+
+        Automne 2025
+        ---
+        # Chapitre 1
+        ## Applications fiables, extensibles et maintenables
+        ---
+        <img src="https://dataintensive.net/images/book-cover.png" class="r-stretch" />
+
+        Livre du cours
+        ---
+        <img src="https://dataintensive.net/images/poster-teaser.jpg" class="r-stretch" />
+        ---
+        # Caractéristiques recherchées
+
+        - Fiabilité
+        - Extensibilité
+        - Maintenabilité
+        ---
+        [Retour au contenu](./)
+    </textarea>
+</section>
+
+            </div>
+        </div>
+
+        <script src="/assets/reveal.js/dist/reveal.js"></script>
+        <script src="/assets/reveal.js/plugin/notes/notes.js"></script>
+        <script src="/assets/reveal.js/plugin/markdown/markdown.js"></script>
+        <script src="/assets/reveal.js/plugin/highlight/highlight.js"></script>
+
+        <script>
+            // More info about initialization & config:
+            // - https://revealjs.com/initialization/
+            // - https://revealjs.com/config/
+            Reveal.initialize({
+                hash: true,
+
+                // Learn about plugins: https://revealjs.com/plugins/
+                plugins: [RevealMarkdown, RevealHighlight, RevealNotes],
+            });
+        </script>
+    </body>
+
+</html>

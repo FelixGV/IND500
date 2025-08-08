@@ -7,8 +7,6 @@
         <meta charset="utf-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
 
-        {% seo %}
-
         <link rel="stylesheet" href="{{ "/assets/reveal.js/dist/reset.css" | prepend: site.baseurl }}" />
         <link rel="stylesheet" href="{{ "/assets/reveal.js/dist/reveal.css" | prepend: site.baseurl }}" />
         <link rel="stylesheet" href="{{ "/assets/reveal.js/dist/theme/black.css" | prepend: site.baseurl }}" />
@@ -16,6 +14,8 @@
     </head>
 
     <body>
+        <!-- Essayé de mettre un bouton pour revenir à la page parente, mais ça ne marche pas bien... -->
+        <!--a href="{{ "/cours/contenu" | prepend: site.baseurl }}" style="color: white; text-decoration: none; padding: 20px; display: inline-block;">X</a-->
         <div class="reveal">
             <div class="slides">
                 {{ content }}

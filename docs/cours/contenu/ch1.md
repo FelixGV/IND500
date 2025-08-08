@@ -28,5 +28,7 @@ layout: slide
         - Fiabilité
         - Extensibilité
         - Maintenabilité
+        ---
+        [Retour au contenu](./)
     </textarea>
 </section>
