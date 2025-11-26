@@ -27,8 +27,10 @@ le(s) chapitre(s) du livre à consulter pour en apprendre plus.
 | Arrêtes | Edges, relationships, arcs | 1 |
 | Asynchrone | Asynchronous, async | 5 |
 | Avec état | Stateful | 1 |
+| Avorter | Abort | 7 |
 | Base de données | Database | 1 |
 | Basculer, basculement | Failover | 5 |
+| Battements de coeur | Heartbeats | 9 |
 | Cache du disque | Page cache | 3 |
 | Cerveau scindé | Split brain | 5 |
 | Charge | Load | 1 |
@@ -36,14 +38,20 @@ le(s) chapitre(s) du livre à consulter pour en apprendre plus.
 | Clé-valeur | Key-value | 2, 3 |
 | Codage par plages | Run-length encoding, RLE | 3 |
 | Cohérence éventuelle | Eventual consistency | 5 |
+| Collection de déchets | Garbage collection | 7 |
 | Complexité algorithmique | Big O notation | 3 |
+| Confirmer, confirmation | Commit | 7 |
 | Consommateur | Consumer | 4, 11 |
 | Copie-sur-écriture | Copy-on-write | 3 |
+| Copie instantanée | Snapshot | 7 |
 | Court-circuite (verbe) | Short-circuit | 3 |
 | Débit | Throughput | 1, 6 |
+| Délai aléatoire | Random backoff | 7 |
+| Délai exponentiel | Exponential backoff | 7 |
 | Décodage | Decoding, parsing, deserialization, unmarshalling | 4 |
 | Délai maximal | Timeout | 5 |
 | Dictionnaire | Map | 2 |
+| Diffusion à ordre total | Total order broadcast | 9 |
 | Disposition | Layout | 3 |
 | Disque dur | Hard disk drive, HDD, spindle | 3 |
 | Disque à semi-conducteur | Solid-state drive, SSD, flash | 3 |
@@ -51,11 +59,13 @@ le(s) chapitre(s) du livre à consulter pour en apprendre plus.
 | Données périmées | Stale data | 5 |
 | Échec | Failure | 1 |
 | Échecs en cascade | Cascading failures | 1 |
+| Écriture sale | Dirty write | 7 |
 | En ligne | Online | 1 |
 | Encodage | Encoding, serialization, marshalling | 4 |
 | Encodage et décodage | Serde (SERialization, DEserialization) | 4 |
 | Engin de traitement des données continu | Stream processor | 1, 11 |
 | Engin de traitement des données en lots | Batch processor | 1, 10 |
+| Enregistrement éphémère | Ephemeral node | 9 |
 | Entête | Header | 4 |
 | Étiquette de champs | Field tag | 4 |
 | Évolution de schéma | Schema evolution | 4 |
@@ -80,13 +90,20 @@ le(s) chapitre(s) du livre à consulter pour en apprendre plus.
 | Index de recherche | Search index | 1, 6 |
 | Index primaire | Primary key index | 3 |
 | Index secondaire | Secondary index | 3, 6 |
+| Intégrité référentielle | Referential integrity | 7 |
+| Interblocage | Deadlock | 7 |
 | Imbriquement | Embedding, nesting | 2 |
+| Isolation par copie instantanée | Snapshot isolation | 7 |
+| Isolation Read Committed | Read Committed isolation | 7 |
 | Jointure | Join | 2 |
 | Journal | Log | 3 |
 | Journal d'écritures en amont | Write-Ahead Log (WAL), redo log | 3 |
-| La dernière écriture gagne | Last writer wins | 5 |
+| La dernière écriture gagne | Last writer wins, LWW | 5 |
 | Leader | Leader, primary, master | 5 |
 | Leader-suivant | Leader-Follower, Active-Passive, Master-Slave | 5 |
+| Lecture-modification-écriture | Read-modify-write | 7 |
+| Lecture non-répétable | Nonrepeatable read, read skew | 7 |
+| Lecture sale | Dirty read | 7 |
 | Lectures à antécédent cohérent | Consistent prefix reads | 5 |
 | Lectures monotones | Monotonic reads | 5 |
 | Lis tes propres écritures | Read your own writes | 5 |
@@ -109,15 +126,19 @@ le(s) chapitre(s) du livre à consulter pour en apprendre plus.
 | Partitionnement par plage de clés | Partitioning by range of key, range partitioning | 6 |
 | Pleinement compatible | Fully compatible | 4 |
 | Pré-découpage | Pre-splitting | 6 |
+| Problème de concurrence | Race condition | 7 |
 | Problème éphémère de disponibilité | Flapping | 6 |
 | Point chaud | Hot spot | 6 |
 | Postcompatible | Forward compatible | 4 |
 | Producteur | Producer | 4, 11 |
 | Récupération après-panne | Crash recovery | 3 |
+| Relancer, relance (verbe ou nom commun) | Retry | 7 |
+| Relation de précédence | Happens-Before Relationship | 9 |
 | Relation un-à-multiple (1:M) | One-to-Many Relationship | 2 |
 | Relation multiple-à-un (M:1) | Many-to-One Relationship | 2 |
 | Relation multiple-à-multiple (M:M) | Many-to-Many Relationship | 2 |
 | Registraire de schéma | Schema registry | 4 |
+| Réparation durant la lecture | Read repair | 5 |
 | Répartiteur de charge | Load balancer | 1 |
 | Réplication | Replication | 1, 5 |
 | Réplique | Replica | 5 |
@@ -131,17 +152,19 @@ le(s) chapitre(s) du livre à consulter pour en apprendre plus.
 | Sans état | Stateless | 1 |
 | Sans leader | Leaderless | 5 |
 | Sans schéma | Schemaless | 2 |
-| Sauvegarde | Backup | 1 |
+| Sauvegarde | Backup | 1, 7 |
 | Schéma à la lecture | Schema-on-read | 2 |
 | Schéma à l'écriture | Schema-on-write | 2 |
 | Schéma de décodage | Reader's shema | 4 |
 | Schéma d'encodage | Writer's shema | 4 |
 | Schéma en étoile | Star schema | 3 |
 | Secondes intercalaires | Leap second | 1, 8 |
+| Sérialisable | Serializable | 7 |
 | Sommet(s) | Vertex (vertices), node(s), entity (entities) | 2 |
 | Stockage orienté colonnes | Column-oriented storage | 3 |
 | Stockage orienté lignes | Row-oriented storage | 3 |
 | Suivant | Follower, read replica, slave, secondary, hot standby | 5 |
+| Surcharge | Overload, thundering herd, retry storm | 7 |
 | Surcoût | Overhead | 3 |
 | Synchrone | Synchronous | 5 |
 | Système de fichiers | Filesystem | 3 |
@@ -158,9 +181,13 @@ le(s) chapitre(s) du livre à consulter pour en apprendre plus.
 | Traitement des données en lots | Batch processor | 1, 4, 10 |
 | Traitement hybride | Hybrid Transactional-Analytical Processing, HTAP | 3 |
 | Traitement transactionnel | OLTP, Online Transactional Processing | 2 |
+| Transactions en doute \[orphelines\] | \[Orphaned\] In-doubt transactions | 9 |
 | Tri fusion | Merge sort | 3 |
 | Triplestore | Triple-Store | 2 |
 | Types de données répliqués convergents et commutatifs | Conflict-free replicated data types, CRDT | 5 |
+| Verrou au niveau des lignes | Row-level lock | 7 |
+| Verrou de prédicat | Predicate lock | 7 |
+| Verrou explicite | Explicit locking | 7 |
 | Voisin bruyant | Noisy neighbour | 3 |
 {: #sorted-index .sort }
 
