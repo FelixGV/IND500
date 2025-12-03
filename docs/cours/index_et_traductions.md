@@ -14,7 +14,10 @@ le(s) chapitre(s) du livre à consulter pour en apprendre plus.
 
 | Terme FR | Terme EN | Chapitre |
 | :------- | :------- | :------- |
+| Abonné | Subscriber | 11 |
+| Abonnement à un sujet | Topic subscription | 11 |
 | Accès au disque | Disk seek | 3 |
+| Accusé de réception | Acknowledgement, ack | 11 |
 | Ajout à la fin | Append | 3 |
 | Amplification d'écriture | Write amplification | 3 |
 | Amplification de lecture | Read amplification | 3 |
@@ -31,21 +34,28 @@ le(s) chapitre(s) du livre à consulter pour en apprendre plus.
 | Base de données | Database | 1 |
 | Basculer, basculement | Failover | 5 |
 | Battements de coeur | Heartbeats | 9 |
+| Blocage en tête de file | Head-of-line blocking | 1, 11 |
 | Cache du disque | Page cache | 3 |
+| Capture de changement de données | Change Data Capture, CDC | 11 |
 | Cerveau scindé | Split brain | 5 |
 | Charge | Load | 1 |
 | Charge utile | Payload | 4 |
+| Chronophage | Time-consuming | 11 |
 | Clé-valeur | Key-value | 2, 3 |
 | Codage par plages | Run-length encoding, RLE | 3 |
 | Cohérence éventuelle | Eventual consistency | 5 |
 | Collection de déchets | Garbage collection | 7 |
 | Complexité algorithmique | Big O notation | 3 |
 | Confirmer, confirmation | Commit | 7 |
+| Confirmation en deux phases | 2-Phase Commit, 2PC | 9 |
 | Consommateur | Consumer | 4, 11 |
+| Contre-pression | Backpressure | 11 |
 | Copie-sur-écriture | Copy-on-write | 3 |
-| Copie instantanée | Snapshot | 7 |
+| Copie instantanée | Snapshot | 7, 11 |
 | Court-circuite (verbe) | Short-circuit | 3 |
+| Courtier de message | Message queue, message broker | 11 |
 | Débit | Throughput | 1, 6 |
+| Déclencheur | Trigger | 11 |
 | Délai aléatoire | Random backoff | 7 |
 | Délai exponentiel | Exponential backoff | 7 |
 | Décodage | Decoding, parsing, deserialization, unmarshalling | 4 |
@@ -56,7 +66,10 @@ le(s) chapitre(s) du livre à consulter pour en apprendre plus.
 | Disque dur | Hard disk drive, HDD, spindle | 3 |
 | Disque à semi-conducteur | Solid-state drive, SSD, flash | 3 |
 | Distribution uniform | Uniform distribution | 6 |
+| Données dérivées | Derived data | 11 |
 | Données périmées | Stale data | 5 |
+| Données primaires | Primary data | 11 |
+| Double écritures | Dual writes | 11 |
 | Échec | Failure | 1 |
 | Échecs en cascade | Cascading failures | 1 |
 | Écriture sale | Dirty write | 7 |
@@ -67,6 +80,7 @@ le(s) chapitre(s) du livre à consulter pour en apprendre plus.
 | Engin de traitement des données en lots | Batch processor | 1, 10 |
 | Enregistrement éphémère | Ephemeral node | 9 |
 | Entête | Header | 4 |
+| Entrepôt de données | Data warehouse | 11 |
 | Étiquette de champs | Field tag | 4 |
 | Évolution de schéma | Schema evolution | 4 |
 | Exploration détaillée | Drill down, slice and dice | 3 |
@@ -88,10 +102,12 @@ le(s) chapitre(s) du livre à consulter pour en apprendre plus.
 | Index clairsemé | Sparse index | 3 |
 | Index de hachage | Hash index | 3 |
 | Index de recherche | Search index | 1, 6 |
+| Index de texte intégral | Full-text index | 11 |
 | Index primaire | Primary key index | 3 |
 | Index secondaire | Secondary index | 3, 6 |
 | Intégrité référentielle | Referential integrity | 7 |
 | Interblocage | Deadlock | 7 |
+| Interrogation, interroger | Poll | 11 |
 | Imbriquement | Embedding, nesting | 2 |
 | Isolation par copie instantanée | Snapshot isolation | 7 |
 | Isolation Read Committed | Read Committed isolation | 7 |
@@ -107,6 +123,9 @@ le(s) chapitre(s) du livre à consulter pour en apprendre plus.
 | Lectures à antécédent cohérent | Consistent prefix reads | 5 |
 | Lectures monotones | Monotonic reads | 5 |
 | Lis tes propres écritures | Read your own writes | 5 |
+| Livraison au maximum une fois | At most once delivery | 11 |
+| Livraison au moins une fois | At least once delivery | 11 |
+| Livraison exactement une fois | Exactly once delivery | 11 |
 | Lot de données | Dataset | 6 |
 | Maintenabilité | Maintainability | 1 |
 | Mapping objet-relationnel | Object-Relational Mapping, ORM | 2 |
@@ -116,6 +135,7 @@ le(s) chapitre(s) du livre à consulter pour en apprendre plus.
 | Métadonnée | Metadata | 3 |
 | Multi-leader | Multi-leader, master-master, active/active | 5 |
 | Noeud | Node | 6 |
+| Numéro de décalage | Offset number | 11 |
 | Paramètre de charge | Load parameter | 1 |
 | Parcourir | Scan | 3 |
 | Partition | Partition, shard, tablet, vnode, vBucket | 6 |
@@ -131,6 +151,8 @@ le(s) chapitre(s) du livre à consulter pour en apprendre plus.
 | Point chaud | Hot spot | 6 |
 | Postcompatible | Forward compatible | 4 |
 | Producteur | Producer | 4, 11 |
+| Publicateur | Publisher | 11 |
+| Publication/abonnement | Pub/Sub | 11 |
 | Récupération après-panne | Crash recovery | 3 |
 | Relancer, relance (verbe ou nom commun) | Retry | 7 |
 | Relation de précédence | Happens-Before Relationship | 9 |
@@ -161,9 +183,11 @@ le(s) chapitre(s) du livre à consulter pour en apprendre plus.
 | Secondes intercalaires | Leap second | 1, 8 |
 | Sérialisable | Serializable | 7 |
 | Sommet(s) | Vertex (vertices), node(s), entity (entities) | 2 |
+| Source de vérité | Source of Truth, SoT | 11 |
 | Stockage orienté colonnes | Column-oriented storage | 3 |
 | Stockage orienté lignes | Row-oriented storage | 3 |
 | Suivant | Follower, read replica, slave, secondary, hot standby | 5 |
+| Sujet | Topic | 11 |
 | Surcharge | Overload, thundering herd, retry storm | 7 |
 | Surcoût | Overhead | 3 |
 | Synchrone | Synchronous | 5 |
@@ -174,14 +198,17 @@ le(s) chapitre(s) du livre à consulter pour en apprendre plus.
 | Tableau associatif | Map | 2 |
 | Tableau de bits | Bitmap | 3 |
 | Tâche de fond | Background task | 3 |
+| Tampon | Buffer | 11 |
+| Tampon circulaire | Circular buffer | 11 |
 | Temps de réponse | Response time | 1 |
 | Tolérant aux failles | Fault-tolerant | 1 |
 | Traitement analytique | OLAP, Online Analytical Processing | 2 |
-| Traitement des données continu | Stream processor | 1, 11 |
-| Traitement des données en lots | Batch processor | 1, 4, 10 |
+| Traitement des données continu | Stream processing | 1, 11 |
+| Traitement des données en lots | Batch processing | 1, 4, 10 |
 | Traitement hybride | Hybrid Transactional-Analytical Processing, HTAP | 3 |
 | Traitement transactionnel | OLTP, Online Transactional Processing | 2 |
 | Transactions en doute \[orphelines\] | \[Orphaned\] In-doubt transactions | 9 |
+| Travail en retard | Backlog | 11 |
 | Tri fusion | Merge sort | 3 |
 | Triplestore | Triple-Store | 2 |
 | Types de données répliqués convergents et commutatifs | Conflict-free replicated data types, CRDT | 5 |
